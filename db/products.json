@@ -1,0 +1,32 @@
+{
+    "Nike T-Shirt": {
+        "quantity": 0,
+        "price": 25.99,
+        "image": "images/nike_tshirt.png"
+    },
+    "Puma T-Shirt": {
+        "quantity": 0,
+        "price": 20.99,
+        "image": "images/puma_tshirt.png"
+    },
+    "Vans Shoes": {
+        "quantity": 21,
+        "price": 55.99,
+        "image": "images/vans_shoes.png"
+    },
+    "Jeans": {
+        "quantity": 33,
+        "price": 42.99,
+        "image": "images/jeans.png"
+    },
+    "Pants": {
+        "quantity": 54,
+        "price": 17.99,
+        "image": "images/pants.png"
+    },
+    "Dress": {
+        "quantity": 59,
+        "price": 60.99,
+        "image": "images/dress.png"
+    }
+}
