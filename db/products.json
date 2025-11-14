@@ -10,22 +10,22 @@
         "image": "images/puma_tshirt.png"
     },
     "Vans Shoes": {
-        "quantity": 21,
+        "quantity": 19,
         "price": 55.99,
         "image": "images/vans_shoes.png"
     },
     "Jeans": {
-        "quantity": 33,
+        "quantity": 31,
         "price": 42.99,
         "image": "images/jeans.png"
     },
     "Pants": {
-        "quantity": 54,
+        "quantity": 50,
         "price": 17.99,
         "image": "images/pants.png"
     },
     "Dress": {
-        "quantity": 59,
+        "quantity": 56,
         "price": 60.99,
         "image": "images/dress.png"
     }

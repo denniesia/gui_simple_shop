@@ -52,14 +52,14 @@ def login():
 
     frame.create_text(300, 150, text='Please log in to continue', font=('Bell MT', 14))
 
-    frame.create_text(230, 200, text="Username:", font=font)
-    frame.create_text(230, 230, text="Password:", font=font)
+    frame.create_text(200, 200, text="Username:", font=font)
+    frame.create_text(200, 230, text="Password:", font=font)
 
     frame.create_window(340, 200, window=username_box)
     frame.create_window(340, 230, window=password_box)
 
     check_btn = Checkbutton(root, text='Show password?', variable=checkbox,offvalue=False, font=('Bell MT', 10), command=show_password)
-    frame.create_window(350, 250, window=check_btn)
+    frame.create_window(350, 255, window=check_btn)
 
     frame.create_window(380, 280, window=logging_btn)
     frame.create_window(225, 280, window=back_btn)
@@ -106,10 +106,10 @@ def register():
     frame.create_text(250, 240, text="Username:")
     frame.create_text(250, 270, text="Password:")
 
-    frame.create_window(350, 180, window=first_name_box)
-    frame.create_window(350, 210, window=last_name_box)
-    frame.create_window(350, 240, window=username_box)
-    frame.create_window(350, 270, window=password_box)
+    frame.create_window(380, 180, window=first_name_box)
+    frame.create_window(380, 210, window=last_name_box)
+    frame.create_window(380, 240, window=username_box)
+    frame.create_window(380, 270, window=password_box)
 
 
     check_btn = Checkbutton(root, text='Show password?', variable=checkbox,offvalue=False, font=('Bell MT', 10), command=show_password)
